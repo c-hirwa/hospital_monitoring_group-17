@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Set group number for the archive directory
 group_number="1"  # Replace with your actual group number
