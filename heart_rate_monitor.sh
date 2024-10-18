@@ -26,7 +26,7 @@ do
     
     # Log data in the format: timestamp, device name, heart rate
     echo "$timestamp $device_name $heart_rate " >> "$log_file"
-    
+    #Delay the execution of the heart rate monitor script for 1 second
     sleep 1
 done &
 echo "Script is running in the background with PID $!"
