@@ -29,4 +29,5 @@ do
     #Delay the execution of the heart rate monitor script for 1 second
     sleep 1
 done &
+#Display script's Process ID
 echo "Script is running in the background with PID $!"
