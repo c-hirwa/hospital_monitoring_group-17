@@ -2,6 +2,7 @@
 
 # Ask for the device name
 echo "Enter the device name (e.g., Monitor_A, Monitor_B):"
+#Store the input in the "device_name" variable
 read device_name
 
 # Log file to store heart rate data
