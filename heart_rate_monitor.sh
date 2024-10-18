@@ -10,6 +10,7 @@ log_file="heart_rate_log.txt"
 
 # Display the PID of the script
 echo "Heart rate monitoring started for $device_name."
+# Display where the data is being logged
 echo "Logging data to $log_file"
 echo "Press Ctrl+C to stop."
 
