@@ -5,7 +5,7 @@ log_file="heart_rate_log.txt"
 
 # Check if the log file exists
 if [ ! -f "$log_file" ]; then
-    echo "Error: Log file $log_file does not exist."
+    echo "Error: Log file $log_file doesn't exist."
     exit 1
 fi
 
