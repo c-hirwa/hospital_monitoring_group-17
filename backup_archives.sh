@@ -22,7 +22,7 @@ mv heart_rate_log.txt_* "$archive_dir"
 if [ $? -eq 0 ]; then
     echo "Archived log files moved to $archive_dir."
 else
-    echo "No archived log files to move."
+    echo "There is No archived log files to move."
     exit 1
 fi
 
