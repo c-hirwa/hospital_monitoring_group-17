@@ -33,7 +33,7 @@ scp -r "$archive_dir" "${remote_user}@${remote_host}:${remote_dir}"
 if [ $? -eq 0 ]; then
     echo "Backup successful. Archived logs sent to $remote_host."
 else
-    echo "Backup failed. Please check your connection and details."
+    echo "Backup failed. Please check your internet connection and details."
     exit 1
 fi
 
